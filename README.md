@@ -18,7 +18,7 @@ var obj = { a: "A", b:{a2:"A2", b2: [1,{a3:"A3"},3,"4"], c2: {a3: "A3",b3: {a4: 
 
 console.log(printable.toString(obj))
 ```
-### Output
+#### Example output
 
 ![alt text](https://raw.githubusercontent.com/aboodmufti/printable-json/master/example.png )
 
