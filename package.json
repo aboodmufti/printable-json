@@ -1,0 +1,22 @@
+{
+  "name": "printable-json",
+  "version": "1.0.0",
+  "description": "Print JSON objects and arrays in a nice way.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "json",
+    "print",
+    "readable",
+    "printable"
+  ],
+  "files": [
+    "README.md",
+    "index.js"
+  ],
+  "author": "Abdulrahman Mufti",
+  "license": "MIT",
+  "repository": "aboodmufti/printable-json"
+}
