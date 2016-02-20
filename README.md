@@ -1,24 +1,27 @@
-# request_logger
+# printable-json
 
 
-Request logger for Express applications.
+Print JSON objects and arrays in a nice way (with colors).
 
 ## Install
 
 ```sh
-$ npm install request_logger
+$ npm install printable-json
 ```
 
-## Usage
+## Example usage
 
 ```js
-var http = require('http');
-var express = require('express');
-var logger = require('request_logger');
-var app = express();
+var printable = require(printable-json)
 
-app.use(logger.start)
+var obj = { a: "A", b:{a2:"A2", b2: [1,{a3:"A3"},3,"4"], c2: {a3: "A3",b3: {a4: "A4"}}}, c: 143}
+
+console.log(printable.toString(obj))
 ```
+### Output
+
+![alt text](https://raw.githubusercontent.com/aboodmufti/printable-json/master/example.png )
+
 
 ## Author
 
